@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'; 
 import './App.css';
 import Recipe from './components/Recipe';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         ingredients = {plat.recipe.ingredients} />
       ))}
       </div>
+      <Footer />
     </div>
   );
 }
